@@ -1,0 +1,22 @@
+.secondTierLeft {
+    padding-left: 190px;
+}
+.secondTierRight {
+    padding-right: 185px;
+}
+@media (max-width: 991px) {
+    .secondTierLeft {
+        padding-left: 125px;
+    }
+    .secondTierRight {
+        padding-right: 115px;
+    }
+}
+@media (max-width: 767px) {
+    .secondTierLeft {
+        padding-left: 0;
+    }
+    .secondTierRight {
+        padding-right: 0;
+    }
+}
