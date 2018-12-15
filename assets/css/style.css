@@ -1,8 +1,16 @@
+.about-text {
+    padding-left: 70px;
+}
 .secondTierLeft {
     padding-left: 190px;
 }
 .secondTierRight {
     padding-right: 185px;
+}
+@media (max-width: 1199px) {
+    .about-text {
+        padding-left: 100px;
+    }
 }
 @media (max-width: 991px) {
     .secondTierLeft {
@@ -11,6 +19,9 @@
     .secondTierRight {
         padding-right: 115px;
     }
+    .about-text {
+        padding-left: 140px;
+    }
 }
 @media (max-width: 767px) {
     .secondTierLeft {
@@ -18,5 +29,11 @@
     }
     .secondTierRight {
         padding-right: 0;
+    }
+    .about-text {
+        padding-left: 16px;
+    }
+    .aboutPic {
+        padding-bottom: 25px;
     }
 }
