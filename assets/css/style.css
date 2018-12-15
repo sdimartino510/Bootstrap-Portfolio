@@ -7,6 +7,12 @@
 .secondTierRight {
     padding-right: 185px;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 @media (max-width: 1199px) {
     .about-text {
         padding-left: 100px;
